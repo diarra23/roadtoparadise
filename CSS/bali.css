@@ -1,0 +1,42 @@
+.body{
+    background-image: url(bali7.jpg);
+}
+
+#mrk, #video{
+    display: inline-block
+}
+.img{
+    border-radius: 20px
+}
+#img1, #text1, #img2, #text2, #img3, #text3, #img4, #text4{
+    display: inline-block
+}
+#text1, #text2, #text3{
+    text-align: center
+}
+
+
+h2{
+    font-size: 20px;
+    font-family:cursive;
+    font-weight: 300;
+    color: black;
+}
+fieldset{
+    border: black solid 5px;
+    text-decoration-color: rgb(151, 92, 206)
+}
+
+legend p{
+    font-family: cursive;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+#titre{
+    text-align: center;
+    font-size: 100px;
+    
+       
+}

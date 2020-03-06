@@ -1,0 +1,90 @@
+/* Debut du Contenu */
+body{
+       background-image: url(img13.jpg);
+      background-attachment: fixed;
+      background-size: 100%;
+      color:black;
+ 
+}
+
+.contain{
+    display: inline-block
+}
+
+
+#flag {
+    font-size: 22px;
+    font-weight: 700px;
+    font-family: cursive;
+    color: blue;
+    text-align: center;
+}
+h3{
+    font-size: 20px;
+    font-weight: 700;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color:black;
+  }
+
+#joh{
+    display: block;
+    text-align: center;  
+}
+
+span{
+  color: beige;
+}
+
+/* Fin du Contenu */
+
+/* Debut Barre de Menu */
+#menu{
+    margin: 0;
+    padding: 0;
+    margin-top: 0px;
+    background-color: rgb(51, 51, 51);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px
+  }
+  #menu li{
+    list-style: none;
+    display: inline-block;
+  }
+  #menu li a{
+    text-decoration: overline seashell;
+    position: relative;
+    color: seashell;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: sans-serif;
+    display: block;
+    overflow: hidden;
+    transition: 0.9s all;
+    padding: 14px 30px;
+    text-transform: uppercase;
+  }
+  #menu li a:before{
+    content: '';
+    width: 60px;
+    position: absolute;
+    border-bottom: 8px solid blue;
+    bottom: 0;
+    right: 350px;
+    transition: 0.9s all;
+  }
+  #menu li a:hover:before{
+    right: 0;
+  }
+
+  .h1{
+    color: whitesmoke;
+  }
+ 
+  #pied{
+    text-decoration: underline;
+  }
+
+  #mail{
+    color: rgba(2, 111, 175, 0.911);
+  }
+/* Fin Barre de Menu */
